@@ -53,3 +53,45 @@ header {
 .red-cart {
 	color: #DF0000;
 }
+
+.vendor-wrapperA {
+	justify-content: left;
+	padding: 10px;
+  margin:5px;
+}
+
+.content-paneA {
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+
+
+.vendor-book-buttonA {
+  font-size: 2em;
+  display: inline-block;
+}
+
+.vendor-wrapperA p{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.vendor-wrapperA img{
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  padding: 1.5em;
+  align-self: center;
+  flex-shrink: 2;
+  flex-grow: 2;
+}
+
+

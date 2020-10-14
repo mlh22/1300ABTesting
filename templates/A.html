@@ -53,10 +53,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>cact-I + cact-you = cact-us</title>
+    
   </head>
 
   <body>
-    <header>
+    <div class="content-paneA content-paneAtitle" style="background-color:rgba(104, 196, 104, 0.815);">
+    <header class="headclass">
       <h1>cact-I + cact-you = cact-us</h1>
       <!-- Ideas: making it pretty/look real, making it look reliable,
           choosing different images, changing layout, etc. Show your creativity!
@@ -66,13 +68,15 @@
         for your inner plant lady.
       </i>
     </header>
+  </div>
 
     <!-- If you add any new buttons, you need to update the javascript file, for
     corresponding button id, so that clicks of that button could be logged -->
-    <div class="content-pane">
-      <div class="vendor-wrapper" id="mp1">
+    <div class="content-paneA" style="background-color: #f1f1f1;;">
+      <div class="vendor-wrapperA itemone" id="mp1">
         <img src="../static/coppercombo.png" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">
+        <br>
+        <button class="vendor-book-buttonA btn btn-primary" type="submit" id="mp1">
           Add To Cart
         </button>
         <span><span id="mp1-added">0</span> in cart</span>
@@ -81,9 +85,10 @@
         </p>
       </div>
 
-      <div class="vendor-wrapper" id="mp2">
+      <div class="vendor-wrapperA itemtwo" id="mp2">
         <img src="../static/geoprickly.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">
+        <br>
+        <button class="vendor-book-buttonA btn btn-primary" type="submit" id="mp2">
           Add To Cart
         </button>
         <span><span id="mp2-added">0</span> in cart</span>
@@ -91,9 +96,10 @@
         </p>
       </div>
 
-      <div class="vendor-wrapper" id="mp3">
+      <div class="vendor-wrapperA itemthree" id="mp3">
         <img src="../static/garden.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp3">
+        <br>
+        <button class="vendor-book-buttonA btn btn-primary" type="submit" id="mp3">
           Add To Cart
         </button>
         <span><span id="mp3-added">0</span> in cart</span>
@@ -101,17 +107,20 @@
         </p>
       </div>
 
-      <div class="vendor-wrapper" id="mp4">
+      <div class="vendor-wrapperA itemfour" id="mp4">
         <img src="../static/garden-combo.jpg" class="vendor-photo" />
-        <button class="vendor-book-button btn btn-primary" type="submit" id="mp4">
+        <br>
+        <button class="vendor-book-buttonA btn btn-primary" type="submit" id="mp4">
           Add To Cart
         </button>
         <span><span id="mp4-added">0</span> in cart</span>
         <p>Cacti, succulent, and garden combo in handcrafted pots. <i>$34.99</i>
         </p>
       </div>
+    </div>
 
-      <div id="cart-wrapper">
+    <div class="content-paneA">
+      <div class="cartnav" id="cart-wrapper" style="background-color:rgba(104, 196, 104, 0.815);">
         <a onclick='navigateToCheckout()'>
         <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
           <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
